@@ -1,0 +1,25 @@
+{
+  "name": "solid-principles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "srp-problem": "nodemon Single_Responisbility/problem-statement/index.ts",
+    "srp-solution": "nodemon Single_Responisbility/solution/index.ts",
+    "srp-assignment": "nodemon Single_Responisbility/assignment/index.ts",
+    "ocp-problem": "nodemon Open_Close/problem-statement/Payment.ts",
+    "ocp-solution": "nodemon Open_Close/solution/Payment.ts",
+    "ocp-assignment": "nodemon Open_Close/assignment/assignment.ts",
+    "lsp-problem": "nodemon Liskov_Substitution/problem-statement/index.ts",
+    "lsp-solution": "nodemon Liskov_Substitution/solution/index.ts",
+    "di-problem": "nodemon Dependency_Inversion/problem-statement/index.ts",
+    "di-solution": "nodemon Dependency_Inversion/solution/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
